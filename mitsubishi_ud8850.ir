@@ -1,0 +1,94 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Mitsubishi UD8850U / UD8400U Commercial Remote
+# 
+name: Power_ON
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 02 00 00 00
+# 
+name: Power_OFF
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 06 00 00 00
+# 
+name: Shutter_Blank
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0A 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0B 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 03 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 07 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 08 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 09 00 00 00
+# 
+name: Input_HDMI
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1A 00 00 00
+# 
+name: Input_DVI
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1B 00 00 00
+# 
+name: Input_RGB1
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: Lens_Shift
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 14 00 00 00
+# 
+name: Zoom_Focus
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 15 00 00 00
